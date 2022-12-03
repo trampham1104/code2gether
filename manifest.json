@@ -1,0 +1,25 @@
+{
+    "name": "Youtube Transript",
+    "description": "A Chrome Extension make Youtube's audio into Transript",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "permissions": ["storage", "alarms", "notifications","tabs","activeTab"],
+    "action": {
+      "default_icon": {
+        "16": "/images/ytcc_logo16.png",
+        "48": "/images/ytcc_logo48.png",
+        "128": "/images/ytcc_logo128.png"
+      },
+      "default_popup": "popup.html",
+      "default_title" :"Random Quote"
+    },
+    "icons": {
+      "16": "/images/ytcc_logo16.png",
+      "48": "/images/ytcc_logo48.png",
+      "128": "/images/ytcc_logo128.png"
+    },
+    "host_permissions": [
+      "https://developer.chrome.com/*"
+    ]
+  }
